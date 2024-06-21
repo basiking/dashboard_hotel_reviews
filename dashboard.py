@@ -6,6 +6,7 @@ app = Dash()
 # Zoom in on items of interest
 # Filter out interesting items or filter in interesting items
 # Details on demand: select item or group and get relevant information accordingly
+# At least 2 tabs
 
 # Main app layout
 app.layout = [
