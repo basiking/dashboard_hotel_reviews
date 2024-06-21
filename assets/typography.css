@@ -1,4 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-body{
+
+body {
     font-family: 'Roboto', monospace;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.graphThreeInARow {
+    display: inline-block;
+    vertical-align: top;
+    width: 33%;
+}
+
+.graphTwoInARow {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+}
+
+.predictionInputForm{
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 33%;
+    margin-left: 33%;
+    margin-right: 33%;
+}
+
+input{
+    margin: 5px;
+}
+
+textarea{
+    width: 100%;
+    height: 50px;
+    padding: 2px;
+    margin-bottom: 3px;
+}
+
+.reviewInputDropdown{
+    width: 250px;
+    text-align: center;
+    margin-left: 25%;
+}
+
+.predictionOutputInformation{
+    margin-left: 33%;
+}
+
+H3{
+    text-align: center;
 }
